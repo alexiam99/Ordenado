@@ -1,0 +1,168 @@
+/*tipografias y textos*/
+
+@font-face {
+  font-family: 'renogare_softregular';
+  src: url('../fonts/renogaresoft-regular-webfont.woff2') format('woff2'),
+    url('../fonts/renogaresoft-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "renogare_softregular", sans-serif;
+}
+
+@font-face {
+  font-family: 'renogare_softregular';
+  src: url('../fonts/renogaresoft-regular-webfont.woff2') format('woff2'),
+    url('../fonts/renogaresoft-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "renogare_softregular", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/*HEADER*/
+
+/*monograma*/
+
+.monograma-header {
+  width: 110px;
+  height: 110px;
+  margin-left: 580px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*redes*/
+
+.redes-header img {
+  margin-left: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.iconos-header {
+  margin-left: 780px;
+  margin-top: 20px;
+}
+
+/*nav*/
+
+.nav-center-monograma {
+  margin-left:15px
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #44ece2;
+}
+
+/*hero image*/
+
+.hero-image {
+  width: 100%;
+  margin: auto;
+}
+
+/*BODY*/
+
+/*proyectos*/
+
+hr {
+  border: 3px solid black;
+  margin: 0;
+}
+
+col-lg-4 col-md-4 col-sm-6 {
+  width: 200px;
+  height: 200px margin: 40px;
+}
+
+.img-proyectos {
+  width: 95%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*servicios*/
+
+.img-servicios {
+  width: 25%;
+  padding-bottom: 10px;
+}
+
+/*contacto*/
+
+.container-contacto {
+  background-color: #44ece2;
+  height: 100px;
+}
+
+.row-contacto {
+  border: 3px solid black;
+}
+
+.icono-mensaje {
+  margin-left: 325px;
+  margin-top: -75px;
+  width: 70px;
+}
+
+.texto-mensaje {
+  margin-top: 40px;
+  color: black;
+}
+
+.texto-mensaje:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/*FOOTER*/
+
+.monograma-footer {
+  width: 9%;
+  text-align: center;
+}
+
+.redes-footer img {
+  margin-left: 1px;
+  text-align: right;
+  width: 40px;
+  height: 40px;
+}
+
+.redes-footer2 {
+  margin-left: 300px;
+}
+
+.mail-footer {
+  margin-left: 100px;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.copyright-footer {
+  color: white;
+  text-align: right;
+  font-size: 10px;
+  margin-left: 400px;
+}
+
+.container-footer {
+  background-color: black;
+  height: 250px;
+}
